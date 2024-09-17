@@ -70,4 +70,3 @@ A análise exploratória dos dados permitiu extrair algumas conclusões prelimin
 *   A maioria dos contatos da campanha atual foram realizados via celular, e o mês de maio apresentou o maior número de ligações.
 *   Há uma diferença significativa na porcentagem de clientes com financiamento imobiliário entre aqueles que adquiriram e recusaram produtos em campanhas anteriores.
 
-É importante ressaltar que essas conclusões são baseadas em uma análise inicial dos dados e podem ser aprofundadas com a aplicação de técnicas de aprendizado de máquina.
