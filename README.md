@@ -1,12 +1,12 @@
 ## MVP de Análise de Dados
 
-### 1. Contexto
+### Contexto
 
 Este projeto visa desenvolver um MVP (Minimum Viable Product) de análise de dados, abordando desde a definição do problema até a fase de pré-processamento. O projeto utiliza um conjunto de dados de campanhas de *marketing* de uma instituição bancária portuguesa, disponível em: https://archive.ics.uci.edu/dataset/222/bank+marketing.
 
 O objetivo principal é **prever a probabilidade de um cliente adquirir um produto bancário** durante a campanha de *marketing* atual. Para isso, são utilizados dados pessoais do cliente, informações de crédito e histórico de interações com campanhas anteriores. 
 
-### 2. Descrição do Problema
+### Descrição do Problema
 
 O problema em questão é classificado como um **problema de aprendizado não supervisionado**, pois o conjunto de dados não fornece informações sobre quais clientes realmente adquiriram o produto, ou seja, não temos uma variável alvo definida. 
 
@@ -16,7 +16,7 @@ As **premissas** para o desenvolvimento do projeto incluem:
 *   Considerar que o objetivo é prever a probabilidade de aquisição de um produto, apesar da falta de rótulos no conjunto de dados.
 *   Utilizar a linguagem Python e bibliotecas como Pandas, Matplotlib, Seaborn e Missingno para análise e tratamento dos dados.
 
-### 3. Atributos do Dataset
+### Atributos do Dataset
 
 O conjunto de dados é composto por **16 atributos** que descrevem o perfil dos clientes e seu histórico de interação com o banco. Esses atributos podem ser divididos em quatro categorias:
 
@@ -45,7 +45,7 @@ O conjunto de dados é composto por **16 atributos** que descrevem o perfil dos 
 *   **previous:** Número de contatos realizados antes da campanha atual.
 *   **poutcome:** Resultado da campanha de marketing anterior.
 
-### 4. Análise de Dados
+### Análise de Dados
 
 A análise de dados foi conduzida utilizando **estatísticas descritivas e visualizações**, com o objetivo de:
 
@@ -54,7 +54,7 @@ A análise de dados foi conduzida utilizando **estatísticas descritivas e visua
 *   **Analisar a relação entre variáveis:** scatterplots foram utilizados para identificar possíveis relações entre variáveis quantitativas, como duração da chamada e saldo.
 *   **Comparar grupos:** histogramas e gráficos de pizza foram utilizados para comparar a distribuição de variáveis em diferentes grupos, como clientes que adquiriram ou não o produto em campanhas anteriores.
 
-### 5. Pré-processamento de Dados
+### Pré-processamento de Dados
 
 O pré-processamento de dados teve como objetivo **preparar os dados para a etapa de modelagem**, realizando operações como:
 
@@ -62,7 +62,7 @@ O pré-processamento de dados teve como objetivo **preparar os dados para a etap
 *   **Discretização:** variáveis contínuas, como saldo e duração da chamada, foram transformadas em categorias ordinais, criando os atributos 'Saldo_discretizado' e 'Duracao_discretizada'.
 *   **One-hot encoding:** variáveis categóricas nominais, como estado civil e nível de escolaridade, foram transformadas em colunas binárias utilizando a técnica one-hot encoding.
 
-### 6. Conclusões Preliminares
+### Conclusões Preliminares
 
 A análise exploratória dos dados permitiu extrair algumas conclusões preliminares sobre o conjunto de dados, como:
 
